@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://purl.org/mekbal/rwo.owl"
+         xmlns="http://purl.org/mekbal/rwo.owl#">
+
+<owl:Ontology rdf:about="http://purl.org/mekbal/rwo.owl">
+  <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+</owl:Ontology>
+
+<owl:Class rdf:about="#Facility">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Roadwork_Object">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Human">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Vehicle">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Workzone">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000028"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Hazard">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Scenario">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Scene">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Task">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Road">
+  <rdfs:subClassOf rdf:resource="#Facility"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Building">
+  <rdfs:subClassOf rdf:resource="#Facility"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Bridge">
+  <rdfs:subClassOf rdf:resource="#Facility"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Cone">
+  <rdfs:subClassOf rdf:resource="#Roadwork_Object"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Tubular_Marker">
+  <rdfs:subClassOf rdf:resource="#Roadwork_Object"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Vertical_Panel">
+  <rdfs:subClassOf rdf:resource="#Roadwork_Object"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Drum">
+  <rdfs:subClassOf rdf:resource="#Roadwork_Object"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Barrier">
+  <rdfs:subClassOf rdf:resource="#Roadwork_Object"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Work_Equipment">
+  <rdfs:subClassOf rdf:resource="#Roadwork_Object"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Barricade">
+  <rdfs:subClassOf rdf:resource="#Roadwork_Object"/>
+</owl:Class>
+
+<owl:Class rdf:about="#TTC_Sign">
+  <rdfs:subClassOf rdf:resource="#Roadwork_Object"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Worker">
+  <rdfs:subClassOf rdf:resource="#Human"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Pedestrian">
+  <rdfs:subClassOf rdf:resource="#Human"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Police_Officer">
+  <rdfs:subClassOf rdf:resource="#Human"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Work_Vehicle">
+  <rdfs:subClassOf rdf:resource="#Vehicle"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Police_Vehicle">
+  <rdfs:subClassOf rdf:resource="#Vehicle"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Passenger_Vehicle">
+  <rdfs:subClassOf rdf:resource="#Vehicle"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Bicycle">
+  <rdfs:subClassOf rdf:resource="#Vehicle"/>
+</owl:Class>
+
+
+</rdf:RDF>
